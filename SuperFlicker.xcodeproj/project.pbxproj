@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A92B9C532CECF99800C89D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92B9C3A2CECF99700C89D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92B9C412CECF99700C89D42;
+			remoteInfo = SuperFlicker;
+		};
+		A92B9C5D2CECF99800C89D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92B9C3A2CECF99700C89D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92B9C412CECF99700C89D42;
+			remoteInfo = SuperFlicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92B9C422CECF99700C89D42 /* SuperFlicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperFlicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92B9C522CECF99800C89D42 /* SuperFlickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFlickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92B9C5C2CECF99800C89D42 /* SuperFlickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFlickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A92B9C442CECF99700C89D42 /* SuperFlicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SuperFlicker;
+			sourceTree = "<group>";
+		};
+		A92B9C552CECF99800C89D42 /* SuperFlickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SuperFlickerTests;
+			sourceTree = "<group>";
+		};
+		A92B9C5F2CECF99800C89D42 /* SuperFlickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SuperFlickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92B9C3F2CECF99700C89D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C4F2CECF99800C89D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C592CECF99800C89D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92B9C392CECF99700C89D42 = {
+			isa = PBXGroup;
+			children = (
+				A92B9C442CECF99700C89D42 /* SuperFlicker */,
+				A92B9C552CECF99800C89D42 /* SuperFlickerTests */,
+				A92B9C5F2CECF99800C89D42 /* SuperFlickerUITests */,
+				A92B9C432CECF99700C89D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92B9C432CECF99700C89D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92B9C422CECF99700C89D42 /* SuperFlicker.app */,
+				A92B9C522CECF99800C89D42 /* SuperFlickerTests.xctest */,
+				A92B9C5C2CECF99800C89D42 /* SuperFlickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92B9C412CECF99700C89D42 /* SuperFlicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92B9C662CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlicker" */;
+			buildPhases = (
+				A92B9C3E2CECF99700C89D42 /* Sources */,
+				A92B9C3F2CECF99700C89D42 /* Frameworks */,
+				A92B9C402CECF99700C89D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A92B9C442CECF99700C89D42 /* SuperFlicker */,
+			);
+			name = SuperFlicker;
+			packageProductDependencies = (
+			);
+			productName = SuperFlicker;
+			productReference = A92B9C422CECF99700C89D42 /* SuperFlicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92B9C512CECF99800C89D42 /* SuperFlickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92B9C692CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlickerTests" */;
+			buildPhases = (
+				A92B9C4E2CECF99800C89D42 /* Sources */,
+				A92B9C4F2CECF99800C89D42 /* Frameworks */,
+				A92B9C502CECF99800C89D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92B9C542CECF99800C89D42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A92B9C552CECF99800C89D42 /* SuperFlickerTests */,
+			);
+			name = SuperFlickerTests;
+			packageProductDependencies = (
+			);
+			productName = SuperFlickerTests;
+			productReference = A92B9C522CECF99800C89D42 /* SuperFlickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A92B9C5B2CECF99800C89D42 /* SuperFlickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92B9C6C2CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlickerUITests" */;
+			buildPhases = (
+				A92B9C582CECF99800C89D42 /* Sources */,
+				A92B9C592CECF99800C89D42 /* Frameworks */,
+				A92B9C5A2CECF99800C89D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92B9C5E2CECF99800C89D42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A92B9C5F2CECF99800C89D42 /* SuperFlickerUITests */,
+			);
+			name = SuperFlickerUITests;
+			packageProductDependencies = (
+			);
+			productName = SuperFlickerUITests;
+			productReference = A92B9C5C2CECF99800C89D42 /* SuperFlickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92B9C3A2CECF99700C89D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A92B9C412CECF99700C89D42 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A92B9C512CECF99800C89D42 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A92B9C412CECF99700C89D42;
+					};
+					A92B9C5B2CECF99800C89D42 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A92B9C412CECF99700C89D42;
+					};
+				};
+			};
+			buildConfigurationList = A92B9C3D2CECF99700C89D42 /* Build configuration list for PBXProject "SuperFlicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92B9C392CECF99700C89D42;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A92B9C432CECF99700C89D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92B9C412CECF99700C89D42 /* SuperFlicker */,
+				A92B9C512CECF99800C89D42 /* SuperFlickerTests */,
+				A92B9C5B2CECF99800C89D42 /* SuperFlickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92B9C402CECF99700C89D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C502CECF99800C89D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C5A2CECF99800C89D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92B9C3E2CECF99700C89D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C4E2CECF99800C89D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92B9C582CECF99800C89D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92B9C542CECF99800C89D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92B9C412CECF99700C89D42 /* SuperFlicker */;
+			targetProxy = A92B9C532CECF99800C89D42 /* PBXContainerItemProxy */;
+		};
+		A92B9C5E2CECF99800C89D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92B9C412CECF99700C89D42 /* SuperFlicker */;
+			targetProxy = A92B9C5D2CECF99800C89D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A92B9C642CECF99800C89D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A92B9C652CECF99800C89D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92B9C672CECF99800C89D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperFlicker/Preview Content\"";
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A92B9C682CECF99800C89D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperFlicker/Preview Content\"";
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A92B9C6A2CECF99800C89D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperFlicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperFlicker";
+			};
+			name = Debug;
+		};
+		A92B9C6B2CECF99800C89D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperFlicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperFlicker";
+			};
+			name = Release;
+		};
+		A92B9C6D2CECF99800C89D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperFlicker;
+			};
+			name = Debug;
+		};
+		A92B9C6E2CECF99800C89D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTDU3J4Q4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flicker.SuperFlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperFlicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92B9C3D2CECF99700C89D42 /* Build configuration list for PBXProject "SuperFlicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92B9C642CECF99800C89D42 /* Debug */,
+				A92B9C652CECF99800C89D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92B9C662CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92B9C672CECF99800C89D42 /* Debug */,
+				A92B9C682CECF99800C89D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92B9C692CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92B9C6A2CECF99800C89D42 /* Debug */,
+				A92B9C6B2CECF99800C89D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92B9C6C2CECF99800C89D42 /* Build configuration list for PBXNativeTarget "SuperFlickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92B9C6D2CECF99800C89D42 /* Debug */,
+				A92B9C6E2CECF99800C89D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92B9C3A2CECF99700C89D42 /* Project object */;
+}
