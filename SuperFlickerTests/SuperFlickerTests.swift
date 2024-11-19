@@ -1,36 +1,33 @@
-//
-//  SuperFlickerTests.swift
-//  SuperFlickerTests
-//
-//  Created by Kristhian De Oliveira on 11/19/24.
-//
-
 import XCTest
 @testable import SuperFlicker
 
-final class SuperFlickerTests: XCTestCase {
+class SuperFlickerTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var flickerMock: FlickerMock!
+
+    override func setUp() {
+        super.setUp()
+        flickerMock = FlickerMock()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown() {
+        flickerMock = nil
+        super.tearDown()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testSearchPhotos_setsDidCallSearchFlag() async {
+        let query = "mountain"
+
+        await flickerMock.searchPhotos(query: query)
+
+        XCTAssertTrue(flickerMock.didCallSearch, "The didCallSearch flag should be set to true when searchPhotos is called.")
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    func testShareImage_setsDidCallShareFlag() {
+        let imageUrl = "https://example.com/image.jpg"
 
+        flickerMock.shareImage(from: imageUrl)
+
+        XCTAssertTrue(flickerMock.didCallShare, "The didCallShare flag should be set to true when shareImage is called.")
+    }
 }
